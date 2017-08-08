@@ -34,7 +34,7 @@ body{
 
 	display: flex;
 	flex-direction: row;
-	font-size: 20.3pt;
+padding-left: 0px;
 	
 	
 	
@@ -48,10 +48,13 @@ body{
 	font-size: 20.3pt;
 	padding-left: 30px;
 	color: #ffffff;
-background-color: rgba(255,255,255,.3);
+	background-color: rgba(255,255,255,.3);
+	border:0px;
+	outline: none;
+	
 
 
- 
+
 }
 #email_button{font-family: Asap-Bold;
 	width: 81px;
@@ -60,7 +63,7 @@ background-color: rgba(255,255,255,.3);
 	border-bottom-right-radius: 30px;
 	border-top-right-radius: 30px;
 	color: #ffffff;
-	border:0px;
+	
 	
 }
 #coming{
@@ -111,7 +114,7 @@ background-color: rgba(255,255,255,.3);
 #all{
 	font-family: Asap-Bold;
 
-   text-align: right;
+	text-align: right;
 	font-size: 36pt;
 	color: #333333;
 }
@@ -132,7 +135,7 @@ background-color: rgba(255,255,255,.3);
 }
 #be{
 	font-family: Asap-Bold;
-text-align: left;
+	text-align: left;
 
 	font-size: 36pt;
 	color: #333333;
@@ -172,9 +175,10 @@ text-align: left;
 	padding-right: 2cm;
 
 }
-.email{
+.email_icon{
 	padding-left: 2cm;
 }
+
 .footer{
 	display: flex;
 	flex-direction:row;
@@ -206,4 +210,25 @@ text-align: left;
 .icon{
 	padding-top:.5cm
 
+}
+.header{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+.home{
+	display:flex;
+	flex-direction:row;
+}
+.home1{
+	font-family: Asap-bold;
+	color: #333333;
+	font-size: 18pt;
+	padding-right: .5cm
+}
+.about{
+	font-family: Asap-bold;
+	color: #999999;
+	font-size: 18pt;
 }
