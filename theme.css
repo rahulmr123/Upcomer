@@ -1,0 +1,209 @@
+@font-face{
+	font-family:Asap-Bold;
+	src:url(Asap-Bold.ttf);
+}
+@font-face{
+	font-family:Asap-Regular;
+	src:url(Asap-Regular.ttf);
+}
+body{
+	margin: 0px;
+}
+.banner {
+
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items : center;
+	background: url(images/bg1_repeat.png);
+
+}
+#first_title {
+	font-family: Asap-Bold;
+	font-size: 52pt;
+	color: #ffffff;
+	text-align: center;
+}
+#sec_title{
+	font-family: Asap-Regular;
+	font-size: 24pt;
+	color: #ffffff;
+	text-align: center;
+}
+.email{
+
+	display: flex;
+	flex-direction: row;
+	font-size: 20.3pt;
+	
+	
+	
+}
+#input{
+	font-family: Asap-Regular;
+	width: 269px;
+	height: 60px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	font-size: 20.3pt;
+	padding-left: 30px;
+	color: #ffffff;
+background-color: rgba(255,255,255,.3);
+
+
+ 
+}
+#email_button{font-family: Asap-Bold;
+	width: 81px;
+	font-size: 20.3pt;
+	background-color: #2ecc71;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	color: #ffffff;
+	border:0px;
+	
+}
+#coming{
+	font-family: Asap-Regular;
+	color: #ffffff;
+	font-size: 16pt;
+}
+.personalise{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+.title_feed{
+	padding-top: 50px;
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+	text-align: center;
+}
+.main_container{
+	display: flex;
+	flex-direction:column;
+	
+}
+.feed_description{
+	padding-top: 30px;
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	text-align: center;
+}
+.section3{
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content:space-around;
+	flex-direction:row;
+	align-items:center;
+}
+.illustration1{
+	align-items:center;
+	padding-top: 60px;
+	display: flex;
+	flex-direction:column;
+
+}
+#all{
+	font-family: Asap-Bold;
+
+   text-align: right;
+	font-size: 36pt;
+	color: #333333;
+}
+#follow{
+	text-align: right;
+	font-family: Asap-Regular;
+	
+	font-size: 20pt;
+	color: #999999;
+}
+.illustration2{
+	display: flex;
+	align-items:right;
+	flex-direction:column;
+}
+.content4{
+
+}
+#be{
+	font-family: Asap-Bold;
+text-align: left;
+
+	font-size: 36pt;
+	color: #333333;
+}
+#get{
+	text-align: left;
+	font-family: Asap-Regular;
+	
+	font-size: 20pt;
+	color: #999999;
+}
+.share{
+	display:flex;
+	flex-direction:column;
+	background: url(images/bg2.png);
+
+}
+#sign_up{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #ffffff;
+	text-align: center;
+}
+#sign_up_content{
+	font-family: Asap-Regular;
+	font-size: 24pt;
+	color: #ffffff;
+	text-align: center;
+}
+.share_images{
+	display: flex;
+	justify-content:center;
+	padding-top: 1cm;
+	padding-bottom: 2cm;
+}
+.fb{
+	padding-right: 2cm;
+
+}
+.email{
+	padding-left: 2cm;
+}
+.footer{
+	display: flex;
+	flex-direction:row;
+	background-color: #333333;
+	align-items:center;
+	justify-content:center;
+}
+.footer_text{
+	font-family: Asap-Bold;
+	font-size: 48pt;
+	color: #ffffff;
+	text-align: center; 
+	margin-left: -70px;
+
+}
+.hand_icon{
+	padding-top: 30px;
+}
+.footer_logo{
+
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+.fb_icon{
+	padding-right: 10px;
+}
+.icon{
+	padding-top:.5cm
+
+}
