@@ -288,3 +288,17 @@ padding-left: 0px;
     /* margin-left: 199px; */
     margin-left: 78px;
 }
+
+.fb_icon:hover{
+	cursor: pointer;
+	opacity: .7;
+}
+.tweet_icon:hover{cursor: pointer;
+	opacity: .7;
+}
+.fb:hover{
+	opacity: .7;
+}
+.email_icon:hover{
+	opacity: .7;
+}
