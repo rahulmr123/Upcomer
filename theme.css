@@ -18,13 +18,13 @@ body{
 	background: url(images/bg1_repeat.png);
 
 }
-#first_title {
+.first_title {
 	font-family: Asap-Bold;
 	font-size: 52pt;
 	color: #ffffff;
 	text-align: center;
 }
-#sec_title{
+.sec_title{
 	font-family: Asap-Regular;
 	font-size: 24pt;
 	color: #ffffff;
@@ -39,7 +39,7 @@ padding-left: 0px;
 	
 	
 }
-#input{
+.input{
 	font-family: Asap-Regular;
 	width: 269px;
 	height: 60px;
@@ -56,7 +56,7 @@ padding-left: 0px;
 
 
 }
-#email_button{font-family: Asap-Bold;
+.email_button{font-family: Asap-Bold;
 	width: 81px;
 	font-size: 20.3pt;
 	background-color: #2ecc71;
@@ -66,7 +66,7 @@ padding-left: 0px;
 	
 	
 }
-#coming{
+.coming{
 	font-family: Asap-Regular;
 	color: #ffffff;
 	font-size: 16pt;
@@ -96,51 +96,62 @@ padding-left: 0px;
 	font-size: 20pt;
 	color: #999999;
 	text-align: center;
+	width: 50%
 }
 .section3{
 	background-color: #f5f5f5;
 	display: flex;
-	justify-content:space-around;
+	justify-content:center;
 	flex-direction:row;
 	align-items:center;
+	position: relative;
 }
-.illustration1{
-	align-items:center;
-	padding-top: 60px;
+.news{
+	
+	margin-top: 3cm;
 	display: flex;
+	align-items:center;
 	flex-direction:column;
+	margin-right: 50px;
+	margin-bottom: 3cm;
+
 
 }
-#all{
+.all{
 	font-family: Asap-Bold;
 
 	text-align: right;
 	font-size: 36pt;
 	color: #333333;
 }
-#follow{
+.follow{
 	text-align: right;
 	font-family: Asap-Regular;
 	
 	font-size: 20pt;
 	color: #999999;
 }
-.illustration2{
+.news2{
+	margin-top: 3cm;
+	margin-right: 200px;
 	display: flex;
 	align-items:right;
 	flex-direction:column;
-}
-.content4{
+	margin-bottom: 3cm;
 
 }
-#be{
+.content3{
+	width: 70%;
+
+}
+.be{
 	font-family: Asap-Bold;
 	text-align: left;
 
 	font-size: 36pt;
 	color: #333333;
 }
-#get{
+.get{
 	text-align: left;
 	font-family: Asap-Regular;
 	
@@ -153,30 +164,32 @@ padding-left: 0px;
 	background: url(images/bg2.png);
 
 }
-#sign_up{
+.sign_up{
 	font-family: Asap-Bold;
 	font-size: 36pt;
 	color: #ffffff;
 	text-align: center;
 }
-#sign_up_content{
+.sign_up_content{
 	font-family: Asap-Regular;
 	font-size: 24pt;
 	color: #ffffff;
 	text-align: center;
+	    width: 57%;
+    margin: auto;
+
 }
 .share_images{
 	display: flex;
 	justify-content:center;
-	padding-top: 1cm;
-	padding-bottom: 2cm;
+	margin: 2cm;
 }
 .fb{
-	padding-right: 2cm;
+	margin-right: 2cm;
 
 }
 .email_icon{
-	padding-left: 2cm;
+	margin-left: 2cm;
 }
 
 .footer{
@@ -205,7 +218,7 @@ padding-left: 0px;
 	align-items:center;
 }
 .fb_icon{
-	padding-right: 10px;
+	margin-right: 10px;
 }
 .icon{
 	padding-top:.5cm
@@ -231,4 +244,7 @@ padding-left: 0px;
 	font-family: Asap-bold;
 	color: #999999;
 	font-size: 18pt;
+}
+.title{
+	width:62%;
 }
