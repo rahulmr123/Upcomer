@@ -1,0 +1,304 @@
+@font-face{
+	font-family:Asap-Bold;
+	src:url(Asap-Bold.ttf);
+}
+@font-face{
+	font-family:Asap-Regular;
+	src:url(Asap-Regular.ttf);
+}
+body{
+	margin: 0px;
+}
+.banner {
+
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items : center;
+	background: url(images/bg1_repeat.png);
+
+}
+.first_title {
+	font-family: Asap-Bold;
+	font-size: 52pt;
+	color: #ffffff;
+	text-align: center;
+}
+.sec_title{
+	font-family: Asap-Regular;
+	font-size: 24pt;
+	color: #ffffff;
+	text-align: center;
+}
+.email{
+
+	display: flex;
+	flex-direction: row;
+padding-left: 0px;
+	
+	
+	
+
+}
+.down_button{
+	display: block;
+}
+.input{
+	font-family: Asap-Regular;
+	width: 269px;
+	height: 60px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	font-size: 20.3pt;
+	padding-left: 30px;
+	color: #ffffff;
+	background-color: rgba(255,255,255,.3);
+	border:0px;
+	outline: none;
+	
+
+
+
+}
+.email_button{font-family: Asap-Bold;
+	width: 81px;
+	font-size: 20.3pt;
+	background-color: #2ecc71;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	color: #ffffff;
+	border:0px;
+	outline: none;
+	
+	
+}
+.coming{
+	font-family: Asap-Regular;
+	color: #ffffff;
+	font-size: 16pt;
+}
+.personalise{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+.title_feed{
+	padding-top: 50px;
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #333333;
+	text-align: center;
+}
+.main_container{
+	display: flex;
+	flex-direction:column;
+	
+}
+.feed_description{
+	padding-top: 30px;
+	font-family: Asap-Regular;
+	font-size: 20pt;
+	color: #999999;
+	text-align: center;
+	width: 50%
+}
+.section3{
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	position: relative;
+}
+.news{
+	
+	margin-top: 3cm;
+	display: flex;
+	align-items:center;
+	flex-direction:row;
+	
+	
+
+
+}
+.all{
+	font-family: Asap-Bold;
+
+	text-align: right;
+	font-size: 36pt;
+	color: #333333;
+}
+.follow{
+	text-align: left;
+	font-family: Asap-Regular;
+	width:70%;
+	font-size: 20pt;
+	color: #999999;
+}
+.news2{
+	margin-top: 3cm;
+	margin-right: 200px;
+	display: flex;
+	align-items:right;
+	flex-direction:row;
+	
+
+}
+.content3{
+	display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    align-items: flex-start;
+    justify-content: flex-start;
+	width: 50vw;
+
+}
+.be{
+	font-family: Asap-Bold;
+	text-align: left;
+
+	font-size: 36pt;
+	color: #333333;
+}
+.get{
+	text-align: right;
+	font-family: Asap-Regular;
+	width:70%;
+	font-size: 20pt;
+	color: #999999;
+}
+.share{
+	display:flex;
+	flex-direction:column;
+	background: url(images/bg2.png);
+
+}
+.sign_up{
+	font-family: Asap-Bold;
+	font-size: 36pt;
+	color: #ffffff;
+	text-align: center;
+}
+.sign_up_content{
+	font-family: Asap-Regular;
+	font-size: 24pt;
+	color: #ffffff;
+	text-align: center;
+	    width: 57%;
+    margin: auto;
+
+}
+.share_images{
+	display: flex;
+	justify-content:center;
+	margin: 2cm;
+}
+.fb{
+	margin-right: 2cm;
+
+}
+.email_icon{
+	margin-left: 2cm;
+}
+
+.footer{
+	display: flex;
+	flex-direction:row;
+	background-color: #333333;
+	align-items:center;
+	justify-content:center;
+}
+.footer_text{
+	font-family: Asap-Bold;
+	font-size: 48pt;
+	color: #ffffff;
+	text-align: center; 
+	margin-left: -70px;
+
+}
+.hand_icon{
+	padding-top: 30px;
+}
+.footer_logo{
+
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+.fb_icon{
+	margin-right: 10px;
+}
+.icon{
+	padding-top:.5cm
+
+}
+.header{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: auto;
+}
+.home{
+	display:flex;
+	flex-direction:row;
+	padding: 20px 0px;
+}
+.home1{
+	font-family: Asap-bold;
+	color: #333333;
+	font-size: 18pt;
+	padding-right: .5cm
+}
+.about{
+	font-family: Asap-bold;
+	color: #999999;
+	font-size: 18pt;
+}
+.title{
+	width:62%;
+}
+.icon{
+	padding: 20px 0px;
+}
+.down{
+	display: block;
+}
+.imagesec3{
+	width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.image3{
+	margin-right: 70px;
+}
+.content4{
+	width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.image4{
+	width: 50vw;
+    /* margin-left: 199px; */
+    margin-left: 78px;
+}
+
+.fb_icon:hover{
+	cursor: pointer;
+	opacity: .7;
+}
+.tweet_icon:hover{cursor: pointer;
+	opacity: .7;
+}
+.fb:hover{
+	opacity: .7;
+}
+.email_icon:hover{
+	opacity: .7;
+}
